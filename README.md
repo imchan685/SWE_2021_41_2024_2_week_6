@@ -83,11 +83,11 @@
   > ```python
   > docker inspect --format="{{ .HostConfig.Binds }}" <container_name>
   > ```
-  > With this input, we can get information about __python version installed in my container.__
+  > With this input, we can check __mount directory of my container.__
   > #### Output
   > ```python
-  > Python 3.12.3
+  > [./ossp_host_dir:/mnt/ossp_container_dir]
   > ```
-  > Output is python version installed.
+  > Output is mount directory in my container.
 
   
