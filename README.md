@@ -50,6 +50,18 @@
   > LOGO-ubuntu-logo
   > ```
   > Output explain about my version of Ubuntu, and information of container, image.
+
+
+    > #### Input code
+  > ```python
+  > docker exec <container_name> git --version
+  > ```
+  > With this input, we can get information about __git version installed in my container.__
+  > #### Output
+  > ```python
+  > git version 2.43.0
+  > ```
+  > Output is git version installed.
   
 
   
