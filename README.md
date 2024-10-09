@@ -29,3 +29,7 @@
 
   ---
   ### Week 5 Assignment
+  >
+  > ```pyhon
+  > docker exec <container_name> cat /etc/os-release
+  > ```
