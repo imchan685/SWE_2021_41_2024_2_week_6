@@ -49,7 +49,8 @@
   > UBUNTU_CODENAME=noble
   > LOGO-ubuntu-logo
   > ```
-  > Output explain about my version of Ubuntu, and information of container, image.
+  > Output explain about my container's os information.
+
 
 
   > #### Input code
@@ -62,9 +63,10 @@
   > git version 2.43.0
   > ```
   > Output is git version installed.
-  
 
-   > #### Input code
+
+
+  > #### Input code
   > ```python
   > docker exec <container_name> python3 --version
   > ```
@@ -74,6 +76,18 @@
   > Python 3.12.3
   > ```
   > Output is python version installed.
-  
+
+
+
+  > #### Input code
+  > ```python
+  > docker inspect --format="{{ .HostConfig.Binds }}" <container_name>
+  > ```
+  > With this input, we can get information about __python version installed in my container.__
+  > #### Output
+  > ```python
+  > Python 3.12.3
+  > ```
+  > Output is python version installed.
 
   
