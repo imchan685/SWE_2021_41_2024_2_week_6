@@ -24,6 +24,6 @@
   >In the inner __while__ loop, add the result value of __n%10__ to the __summ__. Then divide __n__ by 10.  
   >Continue until __n__ is below __0__.  
   >Append the resulting __summ__ value to __arr__ and replace the value of __n__ with __summ__.  
-  >If there is a value equal to __n__ in __arr__, end the __while__ loop and return __false__ because it means you are <u>looping between several numbers.</u>  
+  >If there is a value equal to __n__ in __arr__, end the __while__ loop and return __false__ because it means you are <del>looping between several numbers.</del>  
   >Alternatively, if __n = 1__, return __true__ because the number entered means __happy number__.  
   
