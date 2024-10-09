@@ -26,4 +26,6 @@
   >Append the resulting __summ__ value to __arr__ and replace the value of __n__ with __summ__.  
   >If there is a value equal to __n__ in __arr__, end the __while__ loop and return __false__ because it means you are <u>looping between several numbers.</u>  
   >Alternatively, if __n = 1__, return __true__ because the number entered means __happy number__.  
-  
+
+  ---
+  ### Week 5 Assignment
