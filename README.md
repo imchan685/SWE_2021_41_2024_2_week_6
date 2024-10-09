@@ -5,7 +5,7 @@
 * #### Week 4 repository link
   > [github](https://github.com/imchan685/SWE_2021_41_2024_2_week_4)
 
-+ ####  my code
++ ####  My code
 
    ```python
     def isHappy(n):
@@ -20,4 +20,6 @@
     n = summ
   return n==1
   ```
+- #### Code description
+  >
   
