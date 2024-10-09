@@ -33,4 +33,4 @@
   > ```ubuntu
   > docker exec <container_name> cat /etc/os-release
   > ```
-  > 
+  > With this input, we can get release information about __container__
