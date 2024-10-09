@@ -29,8 +29,26 @@
 
   ---
   ### Week 5 Assignment
-  > #### input code
-  > ```ubuntu
+  > #### Input code
+  > ```python
   > docker exec <container_name> cat /etc/os-release
   > ```
   > With this input, we can get release information about __container__
+  > #### Output
+  > ```python
+  > PRETTY_NAME="Ubuntu 24.04.1 LTS"
+  > NAME="Ubuntu"
+  > VERSION_ID="24.04"
+  > VERSION="24.04.1 LTS (Noble Numbat)"
+  > VERSION_CODENAME=noble
+  > ID=ubuntu
+  > ID_LIKE-debian
+  > HOME_URL="https://www.ubuntu.com/" SUPPORT_URL="https://help.ubuntu.com/"
+  > BUG_REPORT_URL="https://bugs.launchpad.net/ubuntu/"
+  > PRIVACY POLICY_URL="https://www.ubuntu.com/legal/terms-and-policies/privacy-policy"
+  > UBUNTU_CODENAME=noble
+  > LOGO-ubuntu-logo
+  > ```
+  
+
+  
