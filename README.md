@@ -49,6 +49,7 @@
   > UBUNTU_CODENAME=noble
   > LOGO-ubuntu-logo
   > ```
+  > Output explain about my version of Ubuntu, and information of container, image.
   
 
   
