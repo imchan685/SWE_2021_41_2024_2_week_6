@@ -52,7 +52,7 @@
   > Output explain about my version of Ubuntu, and information of container, image.
 
 
-    > #### Input code
+  > #### Input code
   > ```python
   > docker exec <container_name> git --version
   > ```
@@ -62,6 +62,18 @@
   > git version 2.43.0
   > ```
   > Output is git version installed.
+  
+
+   > #### Input code
+  > ```python
+  > docker exec <container_name> python3 --version
+  > ```
+  > With this input, we can get information about __python version installed in my container.__
+  > #### Output
+  > ```python
+  > Python 3.12.3
+  > ```
+  > Output is python version installed.
   
 
   
