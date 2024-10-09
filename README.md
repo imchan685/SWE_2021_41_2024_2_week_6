@@ -1,7 +1,7 @@
 # SWE_2021_41_2024_2_week_6 
 
 ### Week 4 Assignment 
-__unordered list__ (*,+,-)
+(*,+,-)
 * Week 4 repository link
 + My code
 - Code explanation
